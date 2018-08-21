@@ -21,7 +21,7 @@ func primeGen(max_number int, primes []int) []int {
 	fmt.Printf("testing up to %d\n", (max_number))
 	//for every odd number from 3 to max_number/2
 	for i := 3; i < max_number; i += 2 {
-		if testPrime(i, primes) {
+		if isPrime(i, primes) {
 			fmt.Printf("%d is prime!\n", i)
 			primes = append(primes, i)
 		}
@@ -29,7 +29,8 @@ func primeGen(max_number int, primes []int) []int {
 	return primes
 }
 
-func testPrime(number int, primes []int) (is_prime bool) {
+//func isPrime(number int, primes []int) (is_prime bool) {
+func isPrime(number int, primes []int) bool {
 	max_prime := (number + 1) / 2
 	for _, j := range primes {
 		if j > max_prime {
