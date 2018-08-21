@@ -3,9 +3,8 @@
 ☑  Hello World\
 ☑  Prime Generator\
 ☑  File Copier
-
+☑  Hello World HTTP\
 ## Todo:
-□ Hello World HTTP\
 □ Binary Tree Search\
 □ Simple Buffer Overflow PoC\
 □ Crypto Pals Exercises\
