@@ -2,8 +2,8 @@
 ## Done:
 ☑  Hello World\
 ☑  Prime Generator\
-☑  File Copier
-☑  Hello World HTTP\
+☑  File Copier\
+☑  Hello World HTTP
 ## Todo:
 □ Binary Tree Search\
 □ Simple Buffer Overflow PoC\
