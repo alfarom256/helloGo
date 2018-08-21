@@ -1,6 +1,7 @@
 # My Checklist for Learning Go #
 ## Done:
 ☑  Hello World
+
 ☑  Prime Generator
 
 ## Todo:
